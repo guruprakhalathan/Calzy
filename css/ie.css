@@ -1,0 +1,8 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  select::-ms-expand {
+    display: none; }
+  #result-container .contour-chart {
+    height: 50vh;
+    widows: 50vw; } }
+
+/*# sourceMappingURL=ie.css.map */

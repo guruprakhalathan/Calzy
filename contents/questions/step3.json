@@ -1,0 +1,54 @@
+{
+    "step-title": "Next, please provide the following information.",
+    "rentable-area": {
+        "text":"What is the net rentable area of the space to be leased?",
+        "type":"input",
+        "input-type":"text"
+    },
+    "triple-net": {
+        "id": "triple-net",
+        "text": "Operating expenses, excluding real estate taxes and insurance: Does the rent paid to the lessor include reimbursements for all or a portion of the operating expenses (not including real estate taxes and insurance) associated with the property?",
+        "type": "switch"
+    },
+    "lease-currency": {
+        "text":"Please select lease currency:",
+        "type":"select",
+        "options": [
+            "AUD - Australian Dollar ($)",
+            "BRL - Brazilian Real (R$)",
+            "GBP - British Pound (£)",
+            "CAD - Canadian Dollar ($)",
+            "CNY - Chinese Yuan Renminbi (¥)",
+            "DKK - Danish Krone (kr)",
+            "EUR - Euro (€)",
+            "HKD - Hong Kong Dollar ($)",
+            "INR - India Rupee (₹)",
+            "ILS - Israeli New Shekel (₪)",
+            "JPY - Japan Yen (¥)",
+            "KRW - Korean Won (₩)",
+            "MXN - Mexico Peso ($)",
+            "NZD - New Zealand Dollar ($)",
+            "NOK - Norwegian Krone (kr)",
+            "RUB - Russian Ruble (₽)",
+            "ZAR - South African Rand (R)",
+            "SEK - Swedish Krona (kr)",
+            "CHF - Swiss Franc (CHF)",
+            "USD - United States Dollar ($)"
+        ]
+
+    },
+    "lease-unit-measurement": {
+        "text":"What unit of measurement do you want to use?",
+        "id": "lease-unit-measurement",
+        "type":"radio",
+        "options":[
+            { "id": "sqft", "text":"Square feet (Sq. Ft.)" },
+            { "id": "sqm", "text": "Square meters (Sq. M.)" }
+        ]
+    },
+    "include-reimbursement": {
+        "id": "include-reimbursement",
+        "text": "Real estate tax and insurance expenses: Does the rent paid include reimbursements to the lessor for all or a portion of the real estate taxes and/or insurance associated with the property?",
+        "type": "switch"
+    }
+}

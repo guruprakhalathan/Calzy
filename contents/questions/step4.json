@@ -1,0 +1,49 @@
+{
+    "step-title": "Now, please enter the rent details…",
+    "lease-term-text": "Based on information previously provided, the lease term for this analysis is:",
+    "rentable-text": "Based on information previously provided, the rentable area for this analysis is:",
+    "rent-measurement-text": "The rent to be entered below must be based on the measurement type previously chosen:",
+    "annual-increase-text": "You have previously indiated that there are:",
+    "initial-rent": {
+        "text":"Please input the first year's rent",
+        "type":"input",
+        "input-type":"text"
+    },
+    "fixed-increase": {
+        "text":["Please enter the fixed annual increase as a percent per year:",
+            "Please enter the fixed annual increase as an amount per square foot:",
+            "Please enter the fixed annual increase as a dollar amount."],
+        "type":"input",
+        "input-type":"text"
+    },
+    "annual-increase": {
+        "text":"Are there any rent increases?",
+        "id": "annual-increase",
+        "type":"radio",
+        "options":[
+            { "id": "no", "text":"No increases" },
+            { "id": "fixed", "text": "Fixed annual increases" },
+            { "id": "variable", "text": "Customized annual input(s)" }
+        ]
+    },
+    "annual-increase-type": {
+        "text": "What are the annual increases based on?",
+        "type": "select",
+        "options": [{"id":"percentage", "text":"Annual percentage increase"},
+            {"id":"unit", "text":"Annual increase per square foot/meter"},
+            {"id":"dollar", "text":"Specific dollar increase each year"}]
+    },
+    "annual-rent-title-text": "Annual rent for the term of the lease",
+    "variable-increase-text": "As you selected that the lease will have variable rent increases throughout the lease term you must manually enter the amount of rent to be paid in each year in the boxes below:",
+    "lease-measurement-question-text": "How would you like to input rent?",
+    "incremental-borrow-rate": {
+        "text": "Please input your \u0022incremental borrowing rate\u0022, which will be used to calculate the present value of the rent to be paid over the lease term:",
+        "type": "input",
+        "input-type":"text"
+    },
+    "termination-fee": {
+        "text":"Is there a termination fee associated with exercising the termination option? If so, please enter it here:",
+        "type":"input",
+        "input-type":"text"
+    }
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CBRE Lease Calculator</title>
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
+    <style>
+    	body {
+    		padding: 10px;
+    		font-family: 'Futura-Light';
+    		font-size: 14px;
+            text-align: center;
+        }
+        h1 {
+            color: #006a4d;
+            font-size: 1.7em;
+    	}
+    	h2 {
+    		color: #00A657;
+    		font-size: 1.5em;
+    	}
+    	h3 {
+    		color: #539542;
+    		font-size: 1.3em;
+    	}
+        ul {
+            width: 50%;
+            margin: 30px auto;
+        }
+
+        li {
+            list-style: none;
+            text-align: left;
+        }
+
+        ol {
+            width: 50%;
+            margin: 30px auto;
+        }
+        ol > li{
+            list-style: disc;
+            margin: 10px 0;
+        }
+        .inner {
+            width: 100%;
+        }
+
+        p {
+            width: 50%;
+            margin: 30px auto;
+            text-align: left;
+        }
+        @media only screen
+        and (max-device-width : 736px) {
+            body {
+                font-size: 16px;
+            }
+            p, ul, ol {
+                width: 90%;
+            }
+        }
+    	@font-face {
+		  font-family: 'Futura-Light';
+		  src: url('webfont.eot'); /* IE9 Compat Modes */
+		  src: url('fonts/futura-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	       url('fonts/futura-light.woff2') format('woff2'), /* Super Modern Browsers */
+	       url('fonts/futura-light.woff') format('woff'), /* Pretty Modern Browsers */
+	       url('fonts/futura-light.ttf')  format('truetype'), /* Safari, Android, iOS */
+	       url('fonts/futura-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+		}
+
+    </style>
+</head>
+<body>
+	<h1>CBRE Lease Accounting Calculator Reference Guide</h1>
+    <hr/>
+	<h2>Standard</h2>
+
+	<h3>U.S. GAAP and IFRS.</h3>
+    <p>For public companies reporting under U.S. Generally Accepted Accounting Principles (GAAP), the new lease accounting standard becomes effective for fiscal years beginning after December 15, 2018. For all other companies reporting under U.S. GAAP, the effective date is for fiscal years beginning after December 15, 2019. Any company, public or non-public, can elect to early adopt the new standard at any time.</p>
+	<p>For U.S. public companies, the Securities Exchange Commission (SEC) requires 3 years of comparative information on the income statement (including the current reporting year) and two years on the balance sheet (including the current reporting year). As a result, public companies reporting on a calendar year basis will be required to restate their financial information going back to 2017 when publishing their 2019 financial statements.</p>
+	<p>For all companies reporting under International Financial Reporting Standards (IFRS), the new lease accounting standard will be effective for annual reporting periods beginning on or after January 1, 2019. Early adoption is allowed only after a company has adopted IFRS 15 Revenue from Contracts with Customers.</p>
+
+	<h3 id="major-part">What is considered a “major part” of the economic life of an asset?</h3>
+	<p>If the lease term is for a “major part” of the remaining economic life of the underlying asset then the lease will be considered a Finance Lease. While the “bright line” test in existing lease accounting (i.e., 75% of the economic life of the underlying asset) is not present in the new FASB standard, it is referenced in both the Basis for Conclusions and in the Illustrative Examples issued by the FASB that using the 75% test as an indicator of what is considered a “major part” is acceptable.</p>
+	<p>Exception – If the lease will commence in the last 25% of an asset’s remaining economic life, the lessee will perform this test as if the same term was applied early in the asset’s life.</p>
+
+	<h3 id="substantially-all">How do I determine the present value of the lease payments?</h3>
+    <p>If the present value of the minimum lease payments, and any residual value guaranteed by the lessee that is not already reflected in the lease payments, equals or exceeds substantially all of the fair value of the underlying asset then the lease will be considered a Finance Lease. While the “bright line” test in existing lease accounting (i.e., 90% of the fair value of the underlying asset) is not present in the new FASB standard, it is referenced in both the Basis for Conclusions and in the Illustrative Examples issued by the FASB that using the 90% test as an indicator of what is considered “substantially all” is acceptable.</p>
+    <p>For purposes of the present value calculation, the discount rate to be used in the calculation should be the “incremental borrowing rate (IBR)” of the lessee. The IBR is the rate of interest that a “lessee would have to pay to borrow on a collateralized basis over a similar term an amount equal to the lease payments in a similar economic environment”.</p>
+
+	<h2 id="term">Term</h2>
+	<p>The new lease accounting standard defines the lease term as the noncancellable period of the lease, together with all of the following:</p>
+	<ul>
+		<li>a. Periods covered by an option to renew if the lessee is reasonably certain of exercising the option.<li>
+		<li>b. Periods covered by an option to terminate if the lessee is reasonably certain of not exercising the option.<li>
+		<li>c. Periods covered by an option to extend (or not to terminate) the lease in which exercise of the option is controlled by the lessor.<li>
+	</ul>
+    <h2 id="reasonably-certain">Reasonably Certain</h2>
+	<p>The FASB has stated that “reasonably certain” is a high threshold to meet and is consistent with the “reasonably assured” threshold in current lease accounting.</p>
+	<p>Upon lease commencement, a company shall include the previously referenced periods as part of the lease term having considered all relevant factors that create an economic incentive for the lessee to exercise the option(s). These factors include contract-based, asset-based, entity-based, and market-based factors. These factors shall be considered together, and the existence of any one factor does not necessarily signify that a lessee is reasonably certain to exercise or not to exercise an option.</p>
+	<p>Examples of economic factors to consider include, but are not limited to, any of the following:</p>
+	<ul>
+		<li>
+			I. Contractual terms and conditions for the optional periods compared with current market rates, such as:
+			<ul class="inner">
+				<li>a. The amount of lease payments in any optional period</li>
+				<li>b. The amount of any variable lease payments or other contingent payments, such as payments under termination penalties and residual value guarantees</li>
+				<li>c. The terms and conditions of any options exercisable after initial optional periods (for example, the terms and conditions of a purchase option that is exercisable at the end of an extension period at a rate that is currently below market rates).</li>
+			</ul>
+		</li>
+		<li>II. Significant leasehold improvements that are expected to have significant economic value for the lessee when the option to extend or terminate the lease or to purchase the underlying asset becomes exercisable.</li>
+		<li>III. Costs relating to the termination of the lease and the signing of a new lease, such as negotiation costs, relocation costs, costs of identifying another underlying asset suitable for the lessee’s operations, or costs associated with returning the underlying asset in a contractually specified condition or to a contractually specified location.</li>
+		<li>IV. The importance of that underlying asset to the lessee’s operations, considering, for example, whether the underlying asset is a specialized asset and the location of the underlying asset.</li>
+	</ul>
+
+	<h2 id="lease-details">Lease Details</h2>
+	<h3>Operating Expense Treatment</h3>
+	<p>If a lease payment is based on some other method other than a triple-net basis, then it will likely be made up of a “lease component” and a “non-lease component”. The lease component relates to items or activities that transfer a good or service to a lessee and must meet both of the following criteria:</p>
+	<ol>
+		<li>The item benefits the lessee, and</li>
+		<li>The item is neither highly dependent nor highly interrelated with other rights to use the underlying asset. </li>
+	</ol>
+	<p>Relative to a real estate related lease, the lease component is that amount that can be identified solely as the amount of rent paid to lease the space.</p>
+	<p>The non-lease component of a rent payment is associated with reimbursing the landlord for operating expenses, such as common area maintenance, utilities, janitorial services, building security, etc. (excluding real estate taxes and insurance).</p>
+	<p>The new standard allows a lessee, at their option, to carve out from the gross rent payment any amount reimbursing the landlord for non-lease components for purposes of determining the amount to be used in the calculation of the Lease Liability and Right of Use (RoU) asset recorded on the lessee’s balance sheet.</p>
+	<p>The FASB believes both real estate taxes and insurance do NOT transfer a good or service to the lessee. Rather, they are considered to be a cost of ownership. Therefore, they may not be excluded from the lease payment on the basis of being a non-lease component. However, the standard does allow for “variable lease payments (VLP)” to be excluded from rent. The most common form of VLP as it relates to a real estate lease is percentage rent, which, as a result of being a VLP, does not have to be taken into account in the calculation of the amount to be capitalized for a lease. If a lease is a “triple-net” lease, then real estate taxes and insurance are considered variable and are therefore VLPs and, as a result, can be excluded from the calculation of the Lease Liability and the RoU Asset.</p>
+	<p>The following example is provided to demonstrate how non-lease components should be carved-out from the gross rent payment:</p>
+	<ol>
+		<li>The lease is a Full Service Gross lease (i.e., the rent amount paid includes payment to the landlord for the leasing of the space, as well as for the expenses of the building)</li>
+		<li>The Year 1 gross rent payment is $20.00/sf/yr</li>
+		<li>Total annual expenses for the building are $9.00/sf, which includes $5.00/sf for real estate taxes and insurance).</li>
+		<li>The amount to be carved out from the rent that is determined to be a non-lease component is $4.00/sf (i.e., $9.00/sf total expenses less $5.00/sf for real estate taxes and insurance).</li>
+		<li>The amount of “true” rent to be used in the calculation of the Lease Liability and the RoU Asset for Year 1 is $16/sf/yr (i.e., $20.00/sf/yr gross rent payment less $4.00/sf/yr non-lease component).</li>
+	</ol>
+
+	<h2>Review/Compare</h2>
+	<h3>Incremental Borrowing Rate</h3>
+	<p>The new lease accounting standards require the discount rate used in calculating the amount that goes on the balance sheet to be the interest rate that is implicit in the lease. If that rate cannot be readily determined, which is the case in almost all real estate leases, the lessee is required to use its incremental borrowing rate.</p>
+
+	<p>The incremental borrowing rate is defined as the rate of interest a company would have to pay to borrow funds on a collateralized basis over a term similar to the term of the lease in a similar economic environment.</p>
+</body>
+<script>
+</script>
+</html>

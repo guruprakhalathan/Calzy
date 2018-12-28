@@ -1,0 +1,36 @@
+{
+    "step-title": "What type of lease do you have? Let's find out…",
+    "lease-report-standard": {
+        "text": "Are your financial statements prepared according to U.S. Generally Accepted Accounting Principles (GAAP) or International Financial Reporting Standards (IFRS)?",
+        "type":"select",
+        "options": ["U.S. GAAP", "IFRS"]
+    },
+    "exist-or-new-lease-standard": {
+        "text": "Do you want to base this analysis on the existing lease accounting standard or the new lease accounting standard?",
+        "type":"select",
+        "options": ["New", "Existing"]
+    },
+    "scenarios": [
+        [
+            {"id": "transfer-ownership","tooltip": "transfer-of-ownership", "text": "Does the lease transfer ownership to the lessee by the end of the lease term?", "type":"switch"},
+            {"id":"purhcase-asset", "tooltip": "option-to-purchase", "text": "Does the lessee have on option to purchase the asset that is reasonably certain of being exercised?", "type":"switch"},
+            {"id":"economic-life", "tooltip": "economic-life", "text": "Is the lease term for the major part of the remaining economic life of the asset?", "type":"switch"},
+            {"id":"present-value", "tooltip": "pv-exceed-asset", "text": "Does the present value of the sum of the lease payments equal or exceed substantially all of the fair value of the underlying asset?", "type":"switch"},
+            {"id":"alternative-use", "tooltip": "specialize-nature", "text": "Is the underlying asset of such a specialized nature that it is expected to have no alternative use to the lessor at the end of the lease term?","type":"switch"}
+        ],
+        [
+            {"id": "transfer-ownership", "tooltip": "transfer-of-ownership", "text": "Does the lease transfer ownership to the lessee by the end of the lease term?", "type":"switch"},
+            {"id": "bargain-price", "text": "Does the lease contain an option to purchase the leased property at a bargain price?", "type":"switch"},
+            {"id": "economic-life", "tooltip": "economic-life", "text": "The lease term is greater than or equal to 75 percent of the estimated economic life of the leased property?", "type":"switch"},
+            {"id": "present-value", "tooltip": "pv-exceed-asset", "text": "Does the present value of the minimum lease payments, excluding that portion of the payments representing executory costs, equal or exceed 90% of the fair value of the leased property?","type":"switch"}
+        ],
+        [
+            {"id": "transfer-ownership", "tooltip": "transfer-of-ownership", "text": "Does the lease transfer ownership of the asset to the lessee by the end of the lease term?", "type":"switch"},
+            {"id": "bargain-option", "text": "Does the lease have a bargain purchase option and is it certain at the date of inception that the option will be exercised?", "type":"switch"},
+            {"id": "economic-life", "tooltip": "economic-life", "text": "Is the lease term for the major part of the economic life of the asset even if title is not transferred?", "type":"switch"},
+            {"id": "present-value", "tooltip": "pv-exceed-asset", "text": "At the inception of the lease does the present value of the minimum lease payments amount to substantially all of the fair value of the leased asset?", "type":"switch"},
+            {"id": "alternative-use", "text": "Is the leased asset of such a specialized nature that only the lessee can use it without major modifications?", "type":"switch"}
+        ]
+    ],
+    "lease-classification-text": "Based on your responses, the lease is projected to be classified as a(n):"
+}

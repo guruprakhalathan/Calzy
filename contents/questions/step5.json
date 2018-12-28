@@ -1,0 +1,18 @@
+{
+    "step-title": "Please enter following information",
+    "project-name": {
+        "text":"Project Name",
+        "type":"input",
+        "input-type:":"text"
+    },
+    "prepared-by": {
+        "text":"Prepared by (optional)",
+        "type":"input",
+        "input-type:":"text"
+    },
+    "prepared-for": {
+        "text":"Prepared for (optional)",
+        "type":"input",
+        "input-type:":"text"
+    }
+}
