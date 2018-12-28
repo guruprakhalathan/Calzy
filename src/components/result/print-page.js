@@ -107,7 +107,7 @@ const PrintPage = ({ results, steps, nav }) => {
                     />
                     <div className="disclaimer">Note: The balance sheet impact, if any, does not reflect prepaid rent, lease incentives and/or initial direct costs.</div>
                     <div id="external-link">For additional information, Adams’s Global Task Force on Lease Accounting hosts a FASB/IASB web page on Adams.com featuring white papers, webinars, and technical updates to help you navigate the new lease environment. FASB/IASB.
-                        <a href="http://www.Adams.com/real-estate-services/real-estate-industries/fasb-iasb">http://www.Adams.com/real-estate-services/real-estate-industries/fasb-iasb</a>
+                        <a href="">fasb-iasb</a>
                     </div>
                     <PrintFooter />
                 </div>

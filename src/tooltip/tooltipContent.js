@@ -1,6 +1,4 @@
-// example of link below (you would add this to content)
-// <a href="http://www.forio.com" target="_blank">forio</a>
-// replace "http://www.forio.com" to "link-of-the-site" and "forio" to "text-being-shown"
+// example of link below (you would add this to content) 
 
 const tooltipContent = {
     'accounting-standard': {
