@@ -1,0 +1,9 @@
+#Add list of files/folders which shouldn't go inside repository
+target
+.git/config
+node_modules/
+src/node_modules/
+*.map
+package-lock.json
+.vs
+.history
